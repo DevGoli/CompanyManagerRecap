@@ -36,8 +36,8 @@
             <dynamic>false</dynamic>
             <length>12</length>
         </text>
-        <text name="temp">
-            <displayName>Temp</displayName>
+        <text name="temp2">
+            <displayName>Temp2</displayName>
             <dynamic>false</dynamic>
             <length>12</length>
         </text>

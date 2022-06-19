@@ -47,7 +47,7 @@ public class Office extends AbstractPersistentBean {
 	public static final String phonePropertyName = "phone";
 
 	/** @hidden */
-	public static final String tempPropertyName = "temp";
+	public static final String temp2PropertyName = "temp2";
 
 	/**
 	 * Level Unit
@@ -80,9 +80,9 @@ public class Office extends AbstractPersistentBean {
 	private String phone;
 
 	/**
-	 * Temp
+	 * Temp2
 	 **/
-	private String temp;
+	private String temp2;
 
 	@Override
 	@XmlTransient
@@ -234,20 +234,20 @@ public class Office extends AbstractPersistentBean {
 	}
 
 	/**
-	 * {@link #temp} accessor.
+	 * {@link #temp2} accessor.
 	 * @return	The value.
 	 **/
-	public String getTemp() {
-		return temp;
+	public String getTemp2() {
+		return temp2;
 	}
 
 	/**
-	 * {@link #temp} mutator.
-	 * @param temp	The new value.
+	 * {@link #temp2} mutator.
+	 * @param temp2	The new value.
 	 **/
 	@XmlElement
-	public void setTemp(String temp) {
-		preset(tempPropertyName, temp);
-		this.temp = temp;
+	public void setTemp2(String temp2) {
+		preset(temp2PropertyName, temp2);
+		this.temp2 = temp2;
 	}
 }
