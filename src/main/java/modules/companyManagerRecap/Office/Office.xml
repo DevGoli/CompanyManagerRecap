@@ -36,5 +36,10 @@
             <dynamic>false</dynamic>
             <length>12</length>
         </text>
+        <text name="temp">
+            <displayName>Temp</displayName>
+            <dynamic>false</dynamic>
+            <length>12</length>
+        </text>
     </attributes>
 </document>
